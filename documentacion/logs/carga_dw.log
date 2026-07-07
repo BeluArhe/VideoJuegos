@@ -1,0 +1,14 @@
+﻿✅ Batch: DimJuego cargada con 47051 registros.
+✅ Batch: DimTiempo cargada con 9132 registros.
+✅ Batch: DimCliente cargada con 100 registros.
+✅ Batch: Hecho_Ventas cargada con 10000 registros.
+
+🔄 Iniciando carga incremental...
+✅ Incremental: 50 nuevas ventas añadidas a Hecho_Ventas.
+
+🔍 Verificando integridad referencial...
+✅ Integridad referencial OK: Todos los ID_Juego en Hecho_Ventas existen en DimJuego.
+✅ Integridad referencial OK: Todos los ID_Cliente en Hecho_Ventas existen en DimCliente.
+
+🎯 Proceso de carga completado exitosamente.
+

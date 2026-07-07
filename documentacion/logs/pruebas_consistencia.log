@@ -1,0 +1,14 @@
+﻿🔍 Validación de Integridad Referencial...
+   Juegos_Invalidos  Clientes_Invalidos  Tiempo_Invalidos
+0                 0                   0                 0
+
+🔍 Verificación de Formatos...
+   Precios_Negativos
+0                  0
+   Cantidades_Negativas
+0                     0
+
+🔍 Revisión de Duplicados...
+Duplicados en DimJuego: 0
+Duplicados en Hecho_Ventas: 0
+

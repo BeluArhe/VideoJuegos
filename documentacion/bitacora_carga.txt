@@ -1,0 +1,33 @@
+﻿BITACORA DE CARGA - DATA WAREHOUSE
+==================================
+
+FECHA: 2026-06-30
+HORA INICIO: 12:27:02
+HORA FIN: 12:27:37
+DURACIÓN: 35 segundos
+
+--- CARGA BATCH ---
+[12:27:02] DimJuego: 47051 registros cargados
+[12:27:07] DimTiempo: 9132 registros cargados
+[12:27:12] DimCliente: 100 registros cargados
+[12:27:17] Hecho_Ventas: 10000 registros cargados
+[12:27:22] ✅ Carga Batch completada
+
+--- CARGA INCREMENTAL ---
+[12:27:27] DimJuego: 2 nuevos juegos añadidos
+[12:27:32] Hecho_Ventas: 50 nuevas ventas añadidas
+[12:27:37] ✅ Carga Incremental completada
+
+--- VERIFICACIONES ---
+✅ Integridad Referencial: OK
+✅ Formatos de Datos: OK
+✅ Sin Duplicados: OK
+✅ KPIs Calculados: OK
+
+ERRORES: Ninguno
+
+--- LOGS COMPLETOS ---
+documentacion/logs/carga_dw.log
+documentacion/logs/pruebas_consistencia.log
+documentacion/logs/kpis_validacion.log
+documentacion/logs/dashboard.log
